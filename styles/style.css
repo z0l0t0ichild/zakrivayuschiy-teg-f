@@ -302,27 +302,28 @@ button:not(.card__icon-button) svg use {
 
 @media (width <= 375px) {
   .save_button {
-   width: 306px;
-   height: 84px;
+    width: 306px;
+    height: 84px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     /*padding: 17px 20px;*/
   }
-  
-.dialog_text {
-  padding-left: 30px;
-}
+
+  .dialog_text {
+    padding-left: 30px;
+  }
 
   .confirm {
     width: 261px;
     height: 38px;
   }
 
-.dialog[open] {
-  max-width: 341px;
-  max-height: 191px;
-}
+  .dialog[open] {
+    max-width: 341px;
+    max-height: 191px;
+  }
+  
   .save_button .disket_save_button {
     height: 28px;
     width: 28px;
