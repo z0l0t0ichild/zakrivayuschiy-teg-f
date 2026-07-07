@@ -251,6 +251,9 @@ button:not(.card__icon-button) svg use {
 }
 
 .card__like-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   max-inline-size: 130px;
   block-size: 38px;
   padding: 11px 36px;
@@ -275,10 +278,12 @@ button:not(.card__icon-button) svg use {
 }
 
 .dialog[open] {
-  width: 353px;
-  height: 191px;
+  /*width: 353px;
+  height: 191px;*/
+  /* margin-left: 543.5px;
+  margin-right: 543.5px;*/
   display: grid;
-  grid-template-columns: min-content 1fr;
+  grid-template-columns: min-content 0.5fr;
   padding: 30px;
   border: 2px solid #000;
 }
@@ -293,6 +298,9 @@ button:not(.card__icon-button) svg use {
 }
 
 .confirm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 293px;
   height: 38px;
   padding: 12.5px 132.5px;
@@ -315,15 +323,21 @@ button:not(.card__icon-button) svg use {
   }
 
   .confirm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 261px;
     height: 38px;
   }
 
   .dialog[open] {
-    max-width: 341px;
-    max-height: 191px;
+    grid-template-columns: min-content 1fr;
+    /*margin-left: 17px;
+    margin-right: 17px;*/
+    /*max-width: 341px;
+    max-height: 191px;*/
   }
-  
+
   .save_button .disket_save_button {
     height: 28px;
     width: 28px;
